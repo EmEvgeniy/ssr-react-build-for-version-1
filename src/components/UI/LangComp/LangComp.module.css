@@ -1,0 +1,57 @@
+.langComp {
+	position: relative;
+	z-index: 6;
+	width: 80px;
+}
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2px;
+	user-select: none;
+	cursor: pointer;
+	font-size: 16px;
+}
+.globe {
+	font-size: 20px;
+}
+.arrow {
+	font-size: 15px;
+}
+.title span {
+	user-select: none;
+}
+.list {
+	position: absolute;
+	top: 120%;
+	width: 100%;
+	background-color: #fff;
+	color: #10434f;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+	transform: scale(0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: all 0.25s ease;
+}
+.list li {
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.15s ease;
+}
+.list li:hover {
+	background-color: #10434fbc;
+	color: #fff;
+	width: 100%;
+}
+.list.active {
+	transform: scale(1);
+}

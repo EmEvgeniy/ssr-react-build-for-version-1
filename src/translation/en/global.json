@@ -1,1 +1,13 @@
-{}
+{
+	"lang": ["en", "ru"],
+	"currency": ["usd", "sum"],
+	"navDesktop": [
+		{ "id": 1, "title": "Home", "link": "/" },
+		{ "id": 2, "title": "Favorites", "link": "/favorites" },
+		{ "id": 3, "title": "Directions", "link": "/directions" },
+		{ "id": 4, "title": "Tour's types", "link": "/tours_types" }
+	],
+	"login": {
+		"info": "Login or Register to use all Tripexpert features"
+	}
+}

@@ -1,3 +1,4 @@
+import { I18nextProvider } from "react-i18next";
 import global_en from "../translation/en/global.json";
 import { getLanguage } from "../translation/language";
 import global_ru from "../translation/ru/global.json";
@@ -16,6 +17,6 @@ i18next.init({
 	},
 });
 
-export const I18nextProvider = ({ children }) => {
+export const I18nProvider = ({ children }) => {
 	return <I18nextProvider i18n={i18next}>{children}</I18nextProvider>;
 };

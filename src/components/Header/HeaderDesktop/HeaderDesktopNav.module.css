@@ -1,0 +1,30 @@
+.HeaderDesktopNav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 20px;
+	font-size: 16px;
+	width: 100%;
+}
+
+.HeaderDesktopNav a {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20px;
+	width: 100%;
+	padding: 3px 0;
+	border-bottom: 1px solid transparent;
+	border-top: 1px solid transparent;
+	transition: all 0.25s ease;
+}
+
+.HeaderDesktopNav a:hover {
+	border-color: #ffff;
+	transform: scale(1.03, 1.03);
+}
+
+.icon {
+	font-size: 25px;
+}

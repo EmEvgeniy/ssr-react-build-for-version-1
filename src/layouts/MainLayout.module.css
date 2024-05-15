@@ -1,0 +1,11 @@
+.MainLayout {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 100vw;
+	height: 100vh;
+}
+
+.MainLayout main {
+	width: 100%;
+}
